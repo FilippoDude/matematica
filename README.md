@@ -1,9 +1,9 @@
 # matematica
 
 CODICE PRINCIPALE DENTRO "pages/main/mainPage.tsx"
+    
     const valutaFunzione = (x: number): number | null => {
         if(espressione == null)return null
-
         try {
             const parser = new Parser();
             if (!/^[\d+\-*/().x\s^]+$/.test(espressione)) {throw new Error();}
