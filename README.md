@@ -1,6 +1,6 @@
 # matematica
 
-CODICE PRINCIPALE
+CODICE PRINCIPALE DENTRO "pages/main/mainPage.tsx"
     const valutaFunzione = (x: number): number | null => {
         if(espressione == null)return null
 
